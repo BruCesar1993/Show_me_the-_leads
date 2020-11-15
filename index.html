@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captador </title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+</head> 
+<body>
+
+    <div >
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+             DominGama
+            </a>
+          </nav>
+
+    </div>
+    
+
+
+    <h1 id="titulo">Exemplo de formulário para o Show me the Leads</h1>
+  
+  <div >
+
+    <form class="user col-md-6 offset-md-3" method="POST" action="https://smtl.gama.academy/leads/1ccccd81-25e3-11eb-bf8d-0d63c80760d2">
+       
+        <input
+          name="name"
+          type="text"
+          pattern="^\D{2,}\s[\D\s]{2,}$"
+          title="Digite seu nome completo"
+          placeholder="digite seu nome"
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          title="Digite um email válido"
+          placeholder="digite seu email"
+          required
+        />
+        <input name="redirectTo" type="hidden" value="https://gama.academy"/>
+        <input name="debugMode" type="hidden" value="true" />
+        <input type="submit" />
+      </form>
+
+
+  </div>
+    
+
+</body>
+
+
+</html>

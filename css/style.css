@@ -1,0 +1,21 @@
+#titulo{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 90%;
+    
+}
+
+
+.user{
+   margin-top: 150px;
+}
+
+.congratulation{
+   text-align: center;
+   max-width: 90%;
+}
+
+body{
+    background-color: #e9ecef;
+}

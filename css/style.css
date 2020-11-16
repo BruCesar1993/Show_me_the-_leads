@@ -4,7 +4,7 @@
 }
     
     
-    #titulo{
+#titulo{
     text-align: center;
     margin: 0 auto;
     margin-top: 40px;
@@ -26,7 +26,7 @@
 
 body{
     background-color: #e9ecef;
-    width: 800px;
+
     
 }
 
@@ -44,12 +44,12 @@ body{
 }
 
 
-#imagem {
+#imagem2 {
     position: absolute;
     width: 100%;
     }
 
-#texto {
+#texto2 {
     position: absolute;
     top: 350px;
     max-width: 50%;
@@ -57,4 +57,11 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 
+}
+#navegador {
+    background-color: #C4C4C4;
+    text-align: center;
+    font-weight: bold;
+    height: 35px;
+    
 }

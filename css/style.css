@@ -30,6 +30,7 @@ body {
     font-size: 40px;
     align-content: end;
     max-width: 40%;
+    margin-right: 10px;
 }
 
 #textoprincipal h1 {
@@ -85,26 +86,25 @@ p {
 }
 
 .user {
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nome{
-    
+ margin-bottom: 5px;
 }
 
 .correio{
-
+    margin-bottom: 5px;
+    
 }
 
 .botao{
     background-color: #F5B959;
-    border-radius: 100px;
-    width: 70%;
-    margin-top: 10px;
-    margin-left: 35px;
-    margin-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100px;
 }
 
 .congratulation {
@@ -145,10 +145,9 @@ p {
 #frasefinal h3{
     font-size: 28px;
     color: #f5b959;
-    padding-left: 100px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botao2{

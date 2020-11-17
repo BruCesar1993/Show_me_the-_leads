@@ -1,69 +1,109 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-    
-    
-#titulo{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    max-width: 90%;
-    
+body {
+    background-color: #A50439;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-.user{
-    margin: 0 auto;
-    margin-top: 60px;
-    
-}
-
-.congratulation{
-   text-align: center;
-  
-}
-
-body{
-
-    background-color: #e9ecef;
-
-    
-}
-
-.propriedades h3 {
-    
-    font-size: 50.4px;
-    max-width: 60%;
-    color: #fff;
-}
-
-.propriedades p {
-    font-size: 33.6px;
-    color: #f5b959;
-    max-width: 50%;   
-}
-
-
-#imagem2 {
-    position: absolute;
-    width: 100%;
-    }
-
-#texto2 {
-    position: absolute;
-    top: 350px;
-    max-width: 50%;
-    margin-left: 220px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-
-}
 #navegador {
-    background-color: #C4C4C4;
+    background-color: #C4C4C4;;
     text-align: center;
     font-weight: bold;
     height: 35px;
-    
- 
 }
+
+.esquerda {
+    background-image: url("../img/bcgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: cadetblue;
+    width: 100%;
+    /*Tentando ser responsivo*/
+    display: grid;
+}
+
+#textoprincipal{
+    font-size: 40px;
+    align-content: end;
+    max-width: 40%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    /*Da certo mas não é responsivo*/
+    /*margin-left: 550px;
+    margin-top: 300px;*/
+}
+
+#direita {
+    background-color: #A50439;
+    height: 100vh;
+    width: 100vm;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagemebook {
+    width: 131.5px;
+    height: 181.5px;
+    background: #C4C4C4;
+    margin-top: 30px;
+}
+
+#conteudo {
+    color: #FFFFFF;
+}
+
+h6 {
+    padding-top: 20px;
+}
+
+#texto{
+    text-align: center;
+    font-size: 13px;
+   
+}
+
+#baixe {
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+p {
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.user {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nome{
+    
+}
+
+.correio{
+
+}
+
+.botao{
+    background-color: #F5B959;
+    border-radius: 100px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.congratulation {
+   text-align: center;
+   max-width: 90%;
+ }
+ 
+

@@ -1,0 +1,65 @@
+
+ body{
+     background-color: rgba(0, 0, 0, 0.733);
+  
+}
+
+#navegador {
+    background-color: #C4C4C4;;
+    text-align: center;
+    font-weight: bold;
+    height: 35px;
+    
+}
+
+.propriedades{
+    text-align: justify;
+    margin: 0 auto;
+}
+
+
+.propriedades h3 {
+    
+    font-size: 50.4px;
+    max-width: 60%;
+    color: #fff;
+}
+
+.propriedades p {
+    font-size: 33.6px;
+    color: #f5b959;
+    max-width: 50%;   
+}
+
+
+#texto2 {
+    position: absolute;
+    top: 350px;
+    max-width: 50%;
+    margin-left: 220px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.alerta {
+        margin-left: 20px;
+        margin-top: 70px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        max-height: 100%;
+
+
+}
+
+.botao{
+
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    max-width: 30%;
+    margin: 0 auto;
+    
+
+}
+

@@ -3,12 +3,10 @@
     padding: 0;
 }
 
-
 body {
     background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 
 #navegador {
     background-color:black;;
@@ -18,12 +16,16 @@ body {
    
 }
 
+#navegador a {
+    /*nao funciona*/
+    padding-top: 2px;
+}
+
 #esquerda {
     background-image: url("../img/bcgimg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: cadetblue;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
 }
 
@@ -35,13 +37,15 @@ body {
     flex-wrap: wrap;
 }
 
+#logo {
+    
+}
+
 #navegador2 {
     background-color: #000;;
     text-align: center;
     font-weight: bold;
-    height: 36px;
-    
-   
+    height: 36px;   
 }
 
 /* Fazer responsividade */
@@ -65,14 +69,7 @@ body {
     #parte2 {
         display: none;
     }  
-
    
-    
-
-  
-  
-  
-    
 }
 
 
@@ -99,7 +96,6 @@ body {
     background-color: #A50439;
     height: 100vh;
     margin-top: 0;
-   
 }
 
 .flex-container-d {
@@ -111,10 +107,9 @@ body {
 #imagemebook {
     width: 131.5px;
     height: 181.5px;
-    background: #C4C4C4;
     margin-top: 10px;
     background-image: url("../img/capalivro.png");
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 #conteudo {
@@ -135,6 +130,7 @@ body {
     font-weight: bold;
     padding-top: 15px;
     font-size: 18px;
+    color: white;
 }
 
 p {
@@ -172,16 +168,19 @@ p {
   
 
 /* pagina 2 */
- 
 
 .flex-container-a {
-     display: flex;
-     /* flex-direction: column-reverse; */
-     flex-wrap:wrap;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap:wrap;
  }
  
+#logo2 {
+    padding-top: 10px;
+}
+
  #parte2 {
-     background-image: url("../img/imagemfeliz.jpg");
+     background-image: url("../img/bcgimg2.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      height: 655px;
@@ -219,29 +218,27 @@ p {
  }
 
  #agradecimento {
-     background-color: #000;
+    background-color: #000;
  }
  
  .botao2{
-     justify-content: center;
-     padding: 2px;
-     max-width: 30%;
-     width: 200px;
-     margin-left: 120px;
-     margin-bottom: 100px;
-     margin-right: 100px;
-
- 
+    justify-content: center;
+    padding: 2px;
+    max-width: 30%;
+    width: 200px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    margin-right: 100px; 
  }
 
-#modal{
+ #modal{
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 700px;
+    width: 300px;
     height: 280px;
     padding: 15px;
     display: none;

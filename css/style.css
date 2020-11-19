@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: cadetblue;
-    width: 100%;
+    width: 100vh;
     height: 100vh;
 }
 
@@ -233,5 +233,18 @@ p {
 
  
  }
+
+#modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+    height: 280px;
+    padding: 15px;
+    display: none;
+}
 
  

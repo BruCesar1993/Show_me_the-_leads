@@ -109,11 +109,12 @@ body {
     height: 181.5px;
     margin-top: 10px;
     background-image: url("../img/capalivro.png");
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #conteudo {
     color: #FFFFFF;
+    
 }
 
 #conteudo h6 {

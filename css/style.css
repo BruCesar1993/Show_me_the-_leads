@@ -24,7 +24,7 @@ body {
     background-size: cover;
     background-color: cadetblue;
     width: 100%;
-    height: 600px;
+    height: 100vh;
 }
 
 .flex-container-e {
@@ -52,17 +52,21 @@ body {
     }
     
     #esquerda {
-        background-image: url("../img/bcgimg.jpg");
+
+        display: none;
+        /* background-image: url("../img/bcgimg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: cadetblue;
         width: 600px;
-        height: 400px;
+        height: 400px; */
     }
 
     #parte2 {
         display: none;
     }  
+
+   
     
 
   
@@ -93,7 +97,7 @@ body {
 #direita {
     /* margin-top: 20px; */
     background-color: #A50439;
-    height: 600px;
+    height: 100vh;
     margin-top: 0;
    
 }
@@ -230,4 +234,4 @@ p {
  
  }
 
- @media(min-width: )
+ 

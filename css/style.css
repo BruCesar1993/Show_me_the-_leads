@@ -26,7 +26,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 98vh;
 }
 
 .flex-container-e {
@@ -68,8 +68,11 @@ body {
 
     #parte2 {
         display: none;
+
+
     }  
-   
+
+  
 }
 
 
@@ -94,7 +97,7 @@ body {
 #direita {
     /* margin-top: 20px; */
     background-color: #A50439;
-    height: 100vh;
+    height: 98vh;
     margin-top: 0;
 }
 

@@ -12,13 +12,16 @@ body {
     background-color:black;;
     text-align: center;
     font-weight: bold;
-    height: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
    
 }
 
 #navegador a {
     /*nao funciona*/
     padding-top: 2px;
+
 }
 
 #esquerda {
@@ -169,6 +172,14 @@ p {
     text-align: center;
     max-width: 90%;
   }
+
+#iconi{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
   
 
 /* pagina 2 */
